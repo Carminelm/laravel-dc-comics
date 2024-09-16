@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ComicController
+use App\Http\Controllers\ComicController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,4 +30,4 @@ Route::get('/contatti', function () {
 })->name('contacts');
 
 
-Route:: resource('comics',ComicController::class);
+Route::resource('comics',ComicController::class);
