@@ -7,8 +7,7 @@
 @foreach ($comics as $comic)
   <tbody>
     <tr>
-      <td>{{$comic->id}}</td>
-      <td><img src="{{$comic->thumb}}" alt="{{$comic->title}}" srcset=""></td>
+      <td>{{$comic->id}}</td> 
       <td>{{$comic->type}}</td>
       <td>{{$comic->description}}</td>
 

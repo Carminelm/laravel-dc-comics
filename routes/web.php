@@ -13,8 +13,6 @@ use App\Http\Controllers\ComicController;
 |
 */
 
-
-
 Route::get('/', function () {
     $title = 'Layout base - HOME';
     $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi, iusto dolore eaque laudantium optio, adipisci perspiciatis voluptate obcaecati sit perferendis natus velit ut! Tempora voluptatum ipsam modi rem voluptas.';
@@ -28,6 +26,7 @@ Route::get('/chi-siamo', function () {
 Route::get('/contatti', function () {
     return view('contacts');
 })->name('contacts');
+
 
 
 Route::resource('comics',ComicController::class);
