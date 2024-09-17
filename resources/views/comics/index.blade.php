@@ -4,11 +4,12 @@
 
 @section('content')
 <table class="table">
-@foreach ($comics as $comic)
+
   <tbody>
+  @foreach ($comics as $comic)
     <tr>
       <td>{{$comic->id}}</td> 
-      <td>{{$comic->type}}</td>
+      <td>{{$comic->title}}</td>
       <td>{{$comic->description}}</td>
 
 
